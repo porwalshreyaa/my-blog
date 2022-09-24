@@ -1,0 +1,91 @@
+* {
+  
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  border: 4px solid black;
+  background-color: lightgray;
+  border-radius: 4px;
+  color: black;
+  font-size: ;
+  font-weight: bold;
+  text-align: center;
+  width: 20%;
+  height: 15%;
+  margin: auto;
+  padding: 0.5%;
+  font-size: 2em;
+}
+h2 {
+  border: 4px solid gray;
+  background-color: black;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: ;
+  font-weight: bold;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  padding: 1%;
+}
+
+header {
+  background-color: gray;
+  height: 22%;
+  width: 100%;
+   
+  padding: 1%;
+  overflow: hidden;
+  z-index: 11;
+  position: fixed;
+}
+nav {
+  padding: 0.5%;
+}
+a {
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 1%;
+  margin: 0.2%;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a:hover {
+  background: #ffffff;
+  color: black;
+  cursor: pointer;
+}
+
+.pagenav {
+  padding: 0.5%;
+  margin: 1%;
+}
+p {
+  color: #ffffff;
+}
+main {
+  padding-top: 30vh!important;
+  line-height: 25px;
+  font-size: 1.2em;
+  font-family:  Merriweather, serif;, sans-serif;
+
+}
+fieldset {
+  padding: 5%;
+  border: 8px solid gray;
+  border-radius: 4px;
+  margin: auto;
+  width: 70%;
+  }
